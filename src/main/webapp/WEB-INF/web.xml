@@ -12,12 +12,10 @@
         <servlet-name>Servlet3</servlet-name>
         <servlet-class>servlet3.Servlet3</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>Servlet1</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
-
     <servlet>
         <servlet-name>StartServlet</servlet-name>
         <servlet-class>start.StartServlet</servlet-class>
@@ -26,4 +24,5 @@
         <servlet-name>StartServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
 </web-app>
